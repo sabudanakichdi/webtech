@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/cascading.css">
+        <link rel="stylesheet" href="css/css1.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/testimonails-slider.css">
+
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+
+        <link href="css/bootstrap.mini.css" rel="stylesheet" type="text/css">
+        <link href="css/reg.css" rel="stylesheet" type="text/css">
+        <link href="css/login.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            $('#myModal1').on('shown.bs.modal', function () {
+            $('#login').focus()
+            })
+            $('#myModal2').on('shown.bs.modal', function () {
+            $('#reg').focus()
+            })
+        </script>
+    </head>
+    <body>
+       
+            <header>
+                <div id="top-header">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img src="images/logo2.jpg" class="logo">
+                                <div class="main-title">
+                                    <h1>Mr. Green's</h1>
+                                </div>
+<!-- <h2>LOGIN AND REGISTRATION</h2> -->
+                                <div class="home-account">
+ 
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="button-account" data-toggle="modal" data-target="#myModal1">Login</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login</h4>
+        </div>
+        <div class="modal-body">
+        <div id="login">
+            <h1><strong>Welcome.</strong> Please login.</h1>
+            <form action="javascript:void(0);" method="get">
+            <fieldset>
+            <p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
+            <p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+            <p><a href="#">Forgot Password?</a></p>
+            <p><input type="submit" value="Login"></p>
+            </fieldset>
+            </form>
+            <p><span class="btn-round">or</span></p>
+            <p>
+            <a class="facebook-before"></a>
+            <button class="facebook">Login Using Google+</button></p>
+            <p>
+            <a class="twitter-before"></a>
+            <button class="twitter">Login Using PayTm</button>
+            </p>
+        </div> <!-- end login -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+     </div>
+
+
+    </div>
+</div>
+<!-- Register -->
+ <button type="button" class="button-account" data-toggle="modal" data-target="#myModal2">Register</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Register</h4>
+        </div>
+        <div class="modal-body">
+    <div id="reg">
+    <h1><strong>Welcome.</strong> Please Register.</h1>
+    <div>
+        <form action="javascript:void(0);" method="get">
+        <fieldset>
+            <p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' " required></p>
+            <p><input type="email" required value="Email" onBlur="if(this.value=='')this.value='Email'" onFocus="if(this.value=='Email')this.value='' " required></p>
+            <p><input type="password" required  placeholder="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' " required></p>
+            <p><input type="password" required placeholder="Confirm Password" onBlur="if(this.value=='')this.value='CPassword'" onFocus="if(this.value=='CPassword')this.value='' " required></p>
+            <input type="submit" value="Register"><br>
+        </fieldset>
+        </form>
+    </div>
+    <div>
+        <span class="btn-round">or</span><br/>
+    </div>
+    <div>
+        <a class="facebook-before"></a>
+        <button class="facebook">Register Using Google+</button>
+        <br/>
+    </div>
+    <div>
+        <a class="twitter-before"></a>
+        <button class="twitter">Register Using Paytm</button>
+    <br/>
+    </div> 
+
+</div> <!-- end register -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+ </div>  
+</div>
+<div>
+    <!--javascript-->
+    <script src="js/jquery.mini.js"></script>
+    <script src="js/bootstrap.mini.js"></script>
+ </div>
+ </div>
+ <!--end of login and register-->
+                                <div class="search-box">
+                                         <input id="s`" type="text" name="search" placeholder="Search">
+                                         <input type="submit" name="search_s">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="main-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="main-menu">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        
+                                        <li><a href="contact-us.html">Customer Service</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+
+            <div id="heading">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading-content">
+                                <h2>About</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Start -->
+
+            <!-- About End -->
+
+            <!-- Footer -->
+<div class="container-fluid">      
+    <div class="row">
+        <div class="col-lg-3 well" >
+            24X7 Care<br/><br/>
+            Happy to help 24X7 with best comstomer satisfaction.<br/>
+        </div>
+        <div class="col-lg-3 well">
+            Mr. Green's Trust<br/></br/>
+            Your money is yours! All refunds come with no question asked guarantee.
+        </div>
+        <div class="col-lg-3 well">
+            100% Assurance<br/><br/>
+            At Mr. Green's, we provide 100% assurance. If you have any issue, your money is immediately refunded. Sit back and enjoy your shopping.
+        </div>
+        <div class="col-lg-3 well">         
+            Our Promise
+            <br><br>
+            Happiness is guaranteed at Mr. Green's. If we fall short of your expectations, give us a shout.
+        </div>
+    </div>
+</div>
+
+
+            <footer>
+                <div class="container">
+                    
+                    
+                    <div class="bottom-footer">
+                        <p>Registered TradeMark &reg; <a href="index.html">Mr. Green's</a></p>
+                        <p>Made by &copy; <a href="index.html">Zeltrax</a></p>
+                    </div>
+                    
+                </div>
+            </footer>
+
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script src="js/vendor/jquery.gmap3.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&amp;sensor=false">
+        </script>
+                
+      
+
+    </body>
+</html>
